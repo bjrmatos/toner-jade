@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "eslint": "1.5.1",
-    "eslint-config-airbnb": "0.0.9",
+    "eslint-config-airbnb": "0.1.0",
     "mocha": "2.3.3",
     "should": "7.1.0"
   }
