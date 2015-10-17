@@ -30,7 +30,7 @@ describe('jade', function() {
     }).throw();
   });
 
-  it('should work with jsreport syntax', function () {
+  it('should work with jsreport syntax', function() {
     var html = tonerJade('img(src="{#image #{b}}")', null, { b: 'foo' });
     should(html).be.eql('<img src="{#image foo}"/>');
   });
