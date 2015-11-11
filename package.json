@@ -4,6 +4,7 @@
   "description": "Use jade templating engine in toner",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src test",
     "test": "mocha test"
   },
   "author": {
